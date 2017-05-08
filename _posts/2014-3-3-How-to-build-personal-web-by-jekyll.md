@@ -129,6 +129,8 @@ date: 2017-05-06 21:00:00
 
 我执行这一步的时候又出错了，Google一下发现可能是4000端口被占用了，万恶的福晰阅读器，果然是他的问题，直接从任务管理器里面把fxService给停止了，问题解决
 
+![fxService]({{ site.baseurl }}/images/201705/1.jpg)
+
 ![fxService]({{ site.baseurl }}/images/201705/8.png)
 
 从浏览器里打开127.0.0.1：4000，可以看到如下默认网页，说jekyll服务器正常运行
