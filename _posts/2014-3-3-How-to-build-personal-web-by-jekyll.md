@@ -7,8 +7,7 @@ date: 2017-05-06 21:00:00
 
 >搞了一整天，终于把这个个人博客搞定了，做的这么辛苦，还是记录一下这个过程吧
 
-先说一下我的环境
-window7.0 64位
+先说一下我的环境：window7.0 64位+可翻墙网络
 
 ## 开通github博客
 
@@ -34,10 +33,17 @@ window7.0 64位
 
 - 把github上的项目拷贝下来
 
+![拷贝]({{ site.baseurl }}/images/201705/11.png "拷贝")
+
 - 把本地修改过的版本上传
+
+![提交]({{ site.baseurl }}/images/201705/12.png)
+
 - 本地和线上同步
 
-会了上面这些操作之后，就可以把之前创建的repository拷贝到本地，这时候这个repository里面还是空的，新建一个测试文件，命名为index.html，具体内容如下：
+![同步]({{ site.baseurl }}/images/201705/13.png)
+
+自己玩一玩，会了上面这些操作之后，就可以把之前创建的repository拷贝到本地，这时候这个repository里面还是空的，新建一个测试文件，命名为index.html（**一定要命名为这个**），具体内容如下：
 
     <!DOCTYPE html>
     <html>
@@ -54,8 +60,7 @@ window7.0 64位
 
 ![同步]({{ site.baseurl }}/images/201705/4.png)
 
-
-此时，打开浏览器，输入XXX.github.io（XXX是用户名）就可以看到自己的主页了，有时候同步比较慢，要稍微等一下
+此时，打开浏览器，输入XXX.github.io（**XXX是用户名**）就可以看到自己的主页了，有时候同步比较慢，要稍微等一下
 
 ![测试]({{ site.baseurl }}/images/201705/5.png)
 
@@ -68,13 +73,17 @@ window7.0 64位
 
 ### 安装ruby
 
-下载rubyinstaller（[Ruby安装文件下载地址](http://rubyinstaller.org/downloads/)），直接安装，添加path环境变量的选项最好勾上，这样就可以随时随地使用ruby
+下载rubyinstaller（[Ruby安装文件下载地址](http://rubyinstaller.org/downloads/)），推荐下载2.2的版本，直接安装，添加path环境变量的选项最好勾上，这样就可以随时随地使用ruby
 
 ![ruby]({{ site.baseurl }}/images/201705/6.png)
 
+测试一下是否安装成功，任意一个路径下，执行如下命令行：
+
+![测试]({{ site.baseurl }}/images/201705/14.png)
+
 ### 安装Ruby DevKit
 
-（[同ruby下载地址相同](http://rubyinstaller.org/downloads/)）选择对应的版本，我选择的是64位的版本，下载解压之后，在解压目录下打开命令窗口，输入如下命令：
+（[同ruby下载地址相同](http://rubyinstaller.org/downloads/)）选择对应的版本，我选择的是64位的版本，下载双击解压之后，在解压目录下打开命令窗口，输入如下命令：
 
     ruby dk.rb init
 
@@ -88,11 +97,11 @@ window7.0 64位
 
 ### 安装RubyGems
 
-好像有两种安装方法，可以下载下来([下载地址](https://rubygems.org/pages/download))以后用以下命令安装
+下载下来([下载地址](https://rubygems.org/pages/download))解压之后，用以下命令安装
 
     ruby setup.rb
 
-也可以直接在线安装，通过下面的命令行：
+以后如果要更新的话，可以通过下面的命令行：
 
     gem update --system 
 
