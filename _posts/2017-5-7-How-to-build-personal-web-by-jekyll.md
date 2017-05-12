@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 如何构建这个blog【利用github+jekyll构建个人博客】
+title: 【如何构建这个blog】利用github+jekyll构建个人博客
 date: 2017-05-06 21:00:00
 ---
 
