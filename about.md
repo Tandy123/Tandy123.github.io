@@ -4,7 +4,7 @@ title: 关于我
 permalink: /about/
 ---
 
-姓名：汤德衍
+姓名：Tandy
 
 2015-至今：浙江大学	计算机科学与技术
 
