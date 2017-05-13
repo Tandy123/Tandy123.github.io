@@ -1,8 +1,16 @@
 ---
 layout: post
 title: 【Meshlab插件开发】创建一个新的edit插件
-date: 2017-05-13 21:00:00
+categories: Meshlab
+tags:  Meshlab 3d
+author: Tandy
 ---
+
+* content
+{:toc}
+
+
+
 
 打开D:\Projects\MeshLabSrc\_AllInc\_v130a\meshlab\src\sampleplugins目录
 

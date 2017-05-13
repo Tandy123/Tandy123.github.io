@@ -1,8 +1,16 @@
 ---
 layout: post
-title: 【Meshlab插件开发】VS+Qt编译meshlab源码
-date: 2017-05-11 21:00:00
+title:  "【Meshlab插件开发】VS+Qt编译meshlab源码"
+categories: Meshlab
+tags:  Meshlab 3d compile
+author: Tandy
 ---
+
+* content
+{:toc}
+
+
+
 
 ## VS2015+Qt5.7编译MeshLab2016
 

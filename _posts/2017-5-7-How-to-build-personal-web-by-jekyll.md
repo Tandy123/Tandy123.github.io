@@ -1,8 +1,16 @@
 ---
 layout: post
 title: 【如何构建这个blog】利用github+jekyll构建个人博客
-date: 2017-05-06 21:00:00
+categories: Meshlab
+tags:  Meshlab 3d compile
+author: Tandy
 ---
+
+* content
+{:toc}
+
+
+
 
 
 >搞了一整天，终于把这个个人博客搞定了，做的这么辛苦，还是记录一下这个过程吧
