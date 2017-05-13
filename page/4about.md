@@ -11,8 +11,7 @@ type: page
 
 ## 关于我
 
-<iframe src="https://avatars0.githubusercontent.com/u/8007438?v=3&u=5b0b6de5de9ebaacf5ef5c09e08207e9f8fb116b&s=400" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
-
+<iframe src="https://https://github.com/Tandy123/Tandy123.github.io/tree/master/images/Totoro.png" style="border: 0;height: 256px;width: 256px;overflow: hidden;" frameBorder="0"></iframe>
 
 * 2015.9 保研浙江大学
 * 2015.6 毕业于厦门大学 计算机科学与技术 学士
