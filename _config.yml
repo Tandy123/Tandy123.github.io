@@ -18,10 +18,10 @@ twitter_username: tandy123
 facebook_username: 
 github_username:  Tandy123
 email: deyantang@gmail.com
-weibo_username: Tandy淡然de天
+weibo_username: 
 zhihu_username: 
 linkedIn_username: 
-dribbble_username:
+dribbble_username: 
 
 description_footer: 给未来的自己
 
@@ -35,7 +35,7 @@ disqus_shortname: tandy
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
+baidu_tongji_id: 8c94b210bfb05c99188fdd48a6629d92
 google_analytics_id: UA-72449510-4 # google 分析追踪id
 
 # Build settings

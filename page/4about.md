@@ -19,8 +19,8 @@ type: page
 
 ## 联系我
 
-* GitHub：[tandy](https://github.com/tandy123)
-* email：deyantang@gmail.com
+* GitHub：[Tandy](https://github.com/tandy123)
+* Email：deyantang[AT]gmail.com
 * [Twitter](https://twitter.com/tandy123)
 
 
