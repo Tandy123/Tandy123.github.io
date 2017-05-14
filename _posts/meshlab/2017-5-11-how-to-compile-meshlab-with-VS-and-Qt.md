@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "【Meshlab插件开发】VS+Qt编译meshlab源码"
+title:  "【Meshlab开发】VS+Qt编译meshlab源码"
 categories: Meshlab
 tags:  Meshlab 3d compile
 author: Tandy
@@ -91,7 +91,7 @@ author: Tandy
 
 - 编译外部库直接通过，编译io\_base、filter\_meshing的时候，提示
 
-&gt;Qt5Cored.lib(Qt5Cored.dll) : fatal error LNK1112: 模块计算机类型&quot;x64&quot;与目标计算机类型&quot;X86&quot;冲突
+Qt5Cored.lib(Qt5Cored.dll) : fatal error LNK1112: 模块计算机类型&quot;x64&quot;与目标计算机类型&quot;X86&quot;冲突
 
 网上搜了一下没找到好的解决办法，怀疑是当前的meshlab133只支持x86的Qt，而我下的是x64版本的Qt，于是重新去下了一个Qt5.5.1的x86版的，改了解决方案的Qt版本，编译通过
 

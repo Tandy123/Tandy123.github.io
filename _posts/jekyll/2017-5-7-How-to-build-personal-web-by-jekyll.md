@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 【如何构建这个blog】利用github+jekyll构建个人博客
-categories: Meshlab
-tags:  Meshlab 3d compile
+categories: Jekyll
+tags:  Jekyll Blog ruby
 author: Tandy
 ---
 
