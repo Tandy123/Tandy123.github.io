@@ -2,7 +2,9 @@
 layout:     post
 title:      "【数字几何处理】网格数据结构"
 date:       2017-06-02 12:00:00
-author:     "Tandy"
+categories: polygon mesh processing
+tags:  polygon-mesh-processing mesh data-stucture
+author: Tandy
 ---
 
 这段时间重新翻开了《Polygon Mesh Process》，感觉有必要总结一些东西了，就从比较简单的数据结构开始吧
