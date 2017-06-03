@@ -2,7 +2,7 @@
 layout:     post
 title:      "【牛客】剑指Offer面试题-链表"
 categories: Code
-tags:  
+tags:   code
 author: Tandy
 ---
 
