@@ -3,7 +3,7 @@ layout:     post
 title:      "【数字几何处理】虚拟牙龈形变"
 date:       2017-06-05 12:00:00
 categories: polygon-mesh-processing
-tags:  polygon-mesh-processing mesh teeth
+tags:  polygon-mesh-processing mesh teeth mesh-deformation
 author: Tandy
 ---
 
@@ -12,7 +12,7 @@ author: Tandy
 
 这是一个利用三维网格模拟牙龈伴随牙齿移动产生形变的Demo：
 
-![]({{ site.baseurl }}/images/demos/deformation2.gif)
+![]({{ site.baseurl }}/images/demos/virtual_gum_deformation2.gif)
 
 
 
