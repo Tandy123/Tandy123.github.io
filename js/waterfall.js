@@ -21,7 +21,7 @@
       description: '基于meshlab实现最经典网格 <a href ="https://drive.google.com/file/d/0Bz89KcgZMI0RUlhnc3NkZWV0TnM/view"target="_blank">补洞算法</a>，并对其进行改进，加入bridge分割洞的功能，从而实现网格的局部修复。'
     }, {
       demo_link: 'http://tandy123.github.io/2017/06/04/virtual-gum-construction',
-      img_link: 'http://tandy123.github.io/images/demos/virtual_gum_deformation1.png',
+      img_link: 'http://tandy123.github.io/images/demos/virtual_gum_construction1.png',
       title: '虚拟牙龈构造',
       core_tech: '3D Mesh Construction and Processing',
       description: '基于meshlab根据牙齿上的控制点构造虚牙龈，并对其编辑修改。'
