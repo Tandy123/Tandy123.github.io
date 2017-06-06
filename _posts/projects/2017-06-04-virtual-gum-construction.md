@@ -21,4 +21,4 @@ author: Tandy
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lFRFig62DC0" frameborder="0" allowfullscreen></iframe>
 
 完整视频演示（优酷）
-<iframe width="560" height="400" src="http://player.youku.com/embed/XMjgwNjUwMzg0NA==" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="400" src="http://player.youku.com/embed/XMjgwNjY0MTYzMg==" frameborder="0" allowfullscreen></iframe>
