@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "【数字几何处理】虚拟牙龈构造与编辑"
-date:       2017-06-03 12:00:00
+date:       2017-06-04 12:00:00
 categories: polygon-mesh-processing
 tags:  polygon-mesh-processing mesh teeth
 author: Tandy

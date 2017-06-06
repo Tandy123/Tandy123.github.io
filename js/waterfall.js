@@ -14,20 +14,33 @@
      */
   var demoContent = [
     {
-      demo_link: 'https://codepen.io/haoyang/pen/jrvrQq',
-      img_link: 'https://ooo.0o0.ooo/2016/11/24/5836d81f48cd2.png',
-      code_link: 'https://codepen.io/haoyang/pen/jrvrQq',
-      title: 'Fisher-Yates 洗牌算法动画',
-      core_tech: 'JavaScript',
-      description: 'Fisher-Yates 洗牌算法动画。算法详情见 <a href ="https://gaohaoyang.github.io/2016/10/16/shuffle-algorithm/">这里</a>。'
+      demo_link: 'http://tandy123.github.io/2017/06/03/tooth-repair-two-sides/',
+      img_link: 'http://tandy123.github.io/images/demos/tooth_repair1.png',
+      title: '牙齿侧面修复',
+      core_tech: '3D Mesh Repair',
+      description: '基于meshlab实现最经典网格 <a href ="https://drive.google.com/file/d/0Bz89KcgZMI0RUlhnc3NkZWV0TnM/view"target="_blank">补洞算法</a>，并对其进行改进，加入bridge分割洞的功能，从而实现网格的局部修复。'
     }, {
+      demo_link: 'http://tandy123.github.io/2017/06/04/virtual-gum-construction',
+      img_link: 'http://tandy123.github.io/images/demos/virtual_gum_deformation1.png',
+      title: '虚拟牙龈构造',
+      core_tech: '3D Mesh Construction and Processing',
+      description: '基于meshlab根据牙齿上的控制点构造虚牙龈，并对其编辑修改。'
+    }, {
+      demo_link: 'http://tandy123.github.io/2017/06/05/virtual-gum-deformation/',
+      img_link: 'http://tandy123.github.io/images/demos/virtual_gum_deformation1.png',
+      title: '牙龈形变',
+      core_tech: '3D Mesh Real-time Construction',
+      description: '通过更新控制点实时构造虚拟牙龈实现牙龈实时形变的效果。'
+    }
+ /*   , {
       demo_link: 'http://gaohaoyang.github.io/test/headerTransition/',
       img_link: 'https://ooo.0o0.ooo/2016/06/20/5768c1597d1fe.png',
       code_link: 'https://github.com/Gaohaoyang/test/tree/master/headerTransition',
-      title: 'Header Transition 渐变动画',
-      core_tech: 'jQuery BootStrap CSS3',
-      description: '花费不到半小时帮师兄做了一个简单的 CSS3 动画效果，当页面滚动到指定距离时，header 区的背景色由透明变为蓝色。仿照了网站 <a href ="https://quorrajs.org/">https://quorrajs.org/</a> 的 Header 区动画效果。'
+      title: '虚拟牙龈构造',
+      core_tech: '3D Mesh Construction and Processing',
+      description: '基于meshlab根据牙齿上的控制点构造虚牙龈，并对其编辑修改。'
     }
+*/
   ];
 
   contentInit(demoContent) //内容初始化
