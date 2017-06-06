@@ -7,6 +7,9 @@ tags:  polygon-mesh-processing mesh data-stucture
 author: Tandy
 ---
 
+* content
+{:toc}
+
 这段时间重新翻开了《Polygon Mesh Process》，感觉有必要总结一些东西了，就从比较简单的数据结构开始吧
 
 
