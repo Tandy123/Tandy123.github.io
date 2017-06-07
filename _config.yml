@@ -7,14 +7,14 @@
 
 # Site settings
 title: Tandy
-brief-intro: Blog
+brief-intro: 反思过去，活在当下，致敬未来
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tandy123.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
 # other links
-twitter_username: tandy123
+twitter_username: deyantang
 facebook_username: 
 github_username:  Tandy123
 email: deyantang@gmail.com
@@ -35,7 +35,7 @@ disqus_shortname: tandy
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: 8c94b210bfb05c99188fdd48a6629d92
+baidu_tongji_id: 2bbd9390b58c08b99c267d0eee6969c9
 google_analytics_id: UA-72449510-4 # google 分析追踪id
 
 # Build settings
