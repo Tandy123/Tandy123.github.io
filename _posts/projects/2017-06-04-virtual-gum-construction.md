@@ -12,13 +12,18 @@ author: Tandy
 
 这是一个根据牙齿上的控制点构造虚拟牙龈，并対生成的牙龈进行编辑修改的Demo：
 
-![]({{ site.baseurl }}/images/demos/virtual-gum-construction2.gif)
+![]({{ site.baseurl }}/images/demos/virtual_gum_construction2.gif)
 
 
 
 
-## 完整视频演示（YouTube）
+## 完整视频演示
+- YouTube
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lFRFig62DC0" frameborder="0" allowfullscreen></iframe>
 
-## 完整视频演示（优酷）
+
+- 视频看不了，试试下面的
+
+[![视频看不了]({{ site.baseurl }}/images/demos/virtual_gum_construction2.png)](http://player.youku.com/player.php/sid/XMjgwNjUwMzg0NA==/v.swf)
+
 <iframe width="560" height="400" src="http://player.youku.com/embed/XMjgwNjY0MTYzMg==" frameborder="0" allowfullscreen></iframe>
