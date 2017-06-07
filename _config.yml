@@ -23,7 +23,7 @@ zhihu_username:
 linkedIn_username: 
 dribbble_username: 
 
-description_footer: 给未来的自己
+description_footer: 本站主要写给未来的自己！
 
 # comments
 # two ways to comment, only choose one, and use your own short name
@@ -36,7 +36,7 @@ disqus_shortname: tandy
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
 baidu_tongji_id: 2bbd9390b58c08b99c267d0eee6969c9
-google_analytics_id: UA-72449510-4 # google 分析追踪id
+google_analytics_id: UA-100579814-1 # google 分析追踪id
 
 # Build settings
 markdown: kramdown
