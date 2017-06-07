@@ -17,8 +17,13 @@ author: Tandy
 
 
 
-## 完整视频演示（YouTube）
+## 完整视频演示
+- YouTube
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NakXYXscXe0" frameborder="0" allowfullscreen></iframe>
 
-## 完整视频演示（优酷）
+
+- 视频看不了，试试下面的
+
+[![视频看不了]({{ site.baseurl }}/images/demos/virtual_gum_deformation2.png)](http://player.youku.com/embed/XMjgwNjUwMzg0NA==.html)
+
 <iframe width="560" height="400" src="http://player.youku.com/embed/XMjgwNjUwMzg0NA==" frameborder="0" allowfullscreen></iframe>
