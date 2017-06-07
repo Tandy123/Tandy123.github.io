@@ -24,6 +24,6 @@ author: Tandy
 
 - 视频看不了，试试下面的
 
-[![视频看不了]({{ site.baseurl }}/images/demos/virtual_gum_deformation2.png)](http://player.youku.com/embed/XMjgwNjUwMzg0NA==.html)
+[![视频看不了]({{ site.baseurl }}/images/demos/virtual_gum_deformation2.png)](http://player.youku.com/embed/XMjgwNjUwMzg0NA==)
 
 <iframe width="560" height="400" src="http://player.youku.com/embed/XMjgwNjUwMzg0NA==" frameborder="0" allowfullscreen></iframe>

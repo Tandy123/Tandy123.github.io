@@ -24,6 +24,6 @@ author: Tandy
 
 - 视频看不了，试试下面的
 
-[![视频看不了]({{ site.baseurl }}/images/demos/virtual_gum_construction2.png)](http://v.youku.com/v_show/id_XMjgwNjY0MTYzMg==.html)
+[![视频看不了]({{ site.baseurl }}/images/demos/virtual_gum_construction2.png)](http://player.youku.com/embed/XMjgwNjY0MTYzMg==)
 
 <iframe width="560" height="400" src="http://player.youku.com/embed/XMjgwNjY0MTYzMg==" frameborder="0" allowfullscreen></iframe>
