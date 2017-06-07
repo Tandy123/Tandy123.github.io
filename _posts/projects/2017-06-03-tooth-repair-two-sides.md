@@ -24,6 +24,10 @@ author: Tandy
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8lgq0SQ37Os" frameborder="0" allowfullscreen></iframe>
 
 ## 完整视频演示（优酷）
+Idina Menze和Caleb Hyles激情对唱Let It Go：
+
+<iframe height=498 width=510 src="http://player.youku.com/embed/XNjcyMDU4Njg0" frameborder=0 allowfullscreen></iframe>
+
 <iframe width="560" height="400" src="http://player.youku.com/embed/XMjgwNjYzNTU2OA==" frameborder="0" allowfullscreen></iframe>
 
 <iframe height="498" width="510" src='http://player.youku.com/embed/XMjgwNjYzNTU2OA==' frameborder="0" allowfullscreen></iframe>
