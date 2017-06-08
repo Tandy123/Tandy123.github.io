@@ -59,12 +59,14 @@ author: Tandy
 ![]({{ site.baseurl }}/images/demos/holefilling2.png)
 
 - 补洞的效果如下
+
 ![]({{ site.baseurl }}/images/demos/tooth_repair4.gif)
 
 ### Laplacian平滑
 - 主要参考论文：《Laplacian Surface Editing》，[详细介绍](![]({{ site.baseurl }}/images/demos/holefilling2.png))
 
-- 这里我加了一下选点的交互进去，这样用户就可以根据自己需求对指定的区域进行平滑操作
+- 这里我加了一下选点的交互进去，这样用户就可以根据自己需求对指定的区域进行平滑操作，最终的效果如下
+
 ![]({{ site.baseurl }}/images/demos/tooth_repair5.gif)
 
 ## 完整视频演示
