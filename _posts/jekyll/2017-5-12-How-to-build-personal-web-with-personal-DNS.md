@@ -11,11 +11,11 @@ author: Tandy
 
 
 
->接上一篇[如何构建这个blog【利用github+jekyll构建个人博客】](http://tangdeyan.me/How-to-build-personal-web-by-jekyll/)
+>接上一篇[如何构建这个blog【利用github+jekyll构建个人博客】]({{ site.baseurl }}/2017/05/07/How-to-build-personal-web-by-jekyll/)
 
 ## 开通github博客
 
-- 首先你得通过github page开通一个个人博客，没有的参考这篇博客[如何构建这个blog【利用github+jekyll构建个人博客】](http://tangdeyan.me/How-to-build-personal-web-by-jekyll/)
+- 首先你得通过github page开通一个个人博客，没有的参考这篇博客[如何构建这个blog【利用github+jekyll构建个人博客】]({{ site.baseurl }}/2017/05/07/How-to-build-personal-web-by-jekyll/)
 
 ## 使用 GitHub Education 福利
 

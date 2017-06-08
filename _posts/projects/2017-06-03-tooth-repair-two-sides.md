@@ -19,7 +19,10 @@ author: Tandy
 
 ## 背景
 
+从原始的牙颌三维模型上切割下来的牙齿三维数据，由于邻牙和牙龈遮挡的原因，在牙缝区域以及牙根区域存在缺失，这样的数据是不利于之后的牙齿模拟矫治方案的生成的，这里需要对牙齿进行修复操作
 
+## 流程
+- 导入待修复的牙齿数据
 ## 完整视频演示
 - YouTube
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8lgq0SQ37Os" frameborder="0" allowfullscreen></iframe>
