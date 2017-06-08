@@ -39,3 +39,9 @@ type: page
 ### Java
 
 * [API](https://docs.oracle.com/javase/7/docs/api/)
+
+### Markdown
+
+* [在线Markdown编辑器](http://mahua.jser.me/)
+
+* [markdown学习总结](http://blog.magicwang.tech/post/Markdown%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/)
