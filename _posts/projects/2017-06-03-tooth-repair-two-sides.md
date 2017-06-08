@@ -25,11 +25,11 @@ author: Tandy
 - 导入待修复的牙齿数据
 ## 完整视频演示
 - YouTube
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8lgq0SQ37Os" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/8lgq0SQ37Os" frameborder="0" allowfullscreen></iframe>
 
 
 - 视频看不了，试试下面的
 
 [![视频看不了]({{ site.baseurl }}/images/demos/tooth_repair2.png)](http://player.youku.com/embed/XMjgwNjYzNTU2OA==)
 
-<iframe width="560" height="400" src="http://player.youku.com/embed/XMjgwNjYzNTU2OA==" frameborder="0" allowfullscreen></iframe>
+<iframe src="http://player.youku.com/embed/XMjgwNjYzNTU2OA==" frameborder="0" allowfullscreen></iframe>
