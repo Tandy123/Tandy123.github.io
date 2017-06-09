@@ -21,10 +21,10 @@
       description: '基于meshlab实现最经典网格 <a href ="https://drive.google.com/file/d/0Bz89KcgZMI0RUlhnc3NkZWV0TnM/view"target="_blank">补洞算法</a>，并对其进行改进，加入bridge分割洞的功能，从而实现网格的局部修复。'
     },{
       demo_link: '/2017/06/03/template-based-reconstruction/',
-      img_link: '/images/demos/tooth_repair2.gif',
-      title: '牙齿侧面修复',
-      core_tech: '3D Mesh Repair',
-      description: '基于meshlab实现最经典网格 <a href ="https://drive.google.com/file/d/0Bz89KcgZMI0RUlhnc3NkZWV0TnM/view"target="_blank">补洞算法</a>，并对其进行改进，加入bridge分割洞的功能，从而实现网格的局部修复。'
+      img_link: '/images/demos/template_based_reconstruction2.gif',
+      title: '基于模板的牙根重建',
+      core_tech: 'Template-based 3D Mesh Reconstruction',
+      description: '基于模板的牙根重建，可以修复牙齿和重建牙根的效果'
     }, {
       demo_link: '/2017/06/04/virtual-gum-construction',
       img_link: '/images/demos/virtual_gum_construction2.gif',

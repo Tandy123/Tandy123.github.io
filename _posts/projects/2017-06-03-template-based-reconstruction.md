@@ -10,7 +10,7 @@ author: Tandy
 * content
 {:toc}
 
-这是一个基于模板的牙根重建的Demo：
+这是一个基于模板的牙根重建Demo：
 
 ![]({{ site.baseurl }}/images/demos/template_based_reconstruction2.gif)
 
@@ -26,13 +26,13 @@ style="position: relative;
 width:100%;
 padding-bottom:56.25%; 
 height:0;">
-<iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"  src="https://www.youtube.com/embed/NakXYXscXe0" frameborder="0" allowfullscreen></iframe>
+<iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"  src="https://www.youtube.com/embed/Dc87xnxr9WM" frameborder="0" allowfullscreen></iframe>
 </div>
 </div>
 
 - 视频看不了，试试下面的
 
-[![点这里播放视频]({{ site.baseurl }}/images/demos/virtual_gum_deformation2.png)](http://player.youku.com/embed/XMjgwNjUwMzg0NA==)
+[![点这里播放视频]({{ site.baseurl }}/images/demos/template_based_reconstruction2.png)](http://player.youku.com/embed/XMjgxNDAwNzQ4MA==)
 
 <div style="max-width:10000px; margin:0 auto 10px;" >
 <div 
@@ -40,6 +40,6 @@ style="position: relative;
 width:100%;
 padding-bottom:56.25%; 
 height:0;">
-<iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"  src="http://player.youku.com/embed/XMjgwNjUwMzg0NA==" frameborder="0" allowfullscreen></iframe>
+<iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"  src="http://player.youku.com/embed/XMjgxNDAwNzQ4MA==" frameborder="0" allowfullscreen></iframe>
 </div>
 </div>
