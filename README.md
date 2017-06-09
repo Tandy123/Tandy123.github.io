@@ -312,6 +312,13 @@ You can also donate me for a coffee, and I'll do better. Thanks.
 
 Thanks these friends!!!
 
+* 2017.05.19 received 风之筝 ¥6.66
+* 2017.05.16 received 张驰 ¥6.00
+* 2017.05.03 received 希成 ¥6.66
+* 2017.04.24 received deezer ¥10.00
+* 2017.04.13 received Abraham Xiao ¥30.00
+* 2017.04.11 received Wechat user ¥4.00
+* 2017.04.01 received Elvin Zeng ¥6.66
 * 2017.03.13 received Wechat user ¥6.66
 * 2017.03.04 received 史莱姆 ¥9.90
 * 2017.03.02 received 梦想小熊 ¥6.66
