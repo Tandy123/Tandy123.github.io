@@ -10,7 +10,7 @@ type: page
 
 ## 搜索引擎
 
-* [Google](http://www.google.com/){:target="_blank"}
+* [Google](http://www.google.com/)
 
 * [百度](http://www.baidu.com/)
 
