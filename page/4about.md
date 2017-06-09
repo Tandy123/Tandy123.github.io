@@ -11,7 +11,7 @@ type: page
 
 ## 关于我
 
-<iframe src="{{ prepend: site.baseurl }}/images/avatar.jpg" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+<iframe src="{{ prepend: site.baseurl }}/images/avatar.jpg" style="border: 0;height: 400px;width: 400px;overflow: hidden;" frameBorder="0"></iframe>
 
 就读于浙江大学计算机科学技术学院，攻读硕士学位
 
