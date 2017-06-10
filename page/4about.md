@@ -11,14 +11,15 @@ type: page
 
 ## 关于我
 
-<iframe src="{{ prepend: site.baseurl }}/images/avatar.jpg" style="border: 0;height: 400px;width: 400px;overflow: hidden;" frameBorder="0"></iframe>
+<iframe src="{{ prepend: site.baseurl }}/images/avatar.png" style="border: 0;height: 400px;width: 400px;overflow: hidden;" frameBorder="0"></iframe>
 
-就读于浙江大学计算机科学技术学院，攻读硕士学位
+就读于浙江大学计算机科学技术学院，攻读硕士学位，2018年毕业
 
-主要兴趣集中在数字几何处理，三维建模，科学计算可视化，PC端及移动应用开发。
+主要兴趣集中在计算机图形学，数字几何处理，三维建模，科学计算可视化，PC端及移动应用开发。
 
 热爱篮球，绘画，喜欢挑战不一样的事物。
 
+一些经历：
 * 2016.10 被评为优秀研究生及三好研究生，荣获南都三等奖学金
 * 2016.09-2017.03 杭州美齐科技有限公司，研究部，实习算法工程师
 * 2015.09 保研浙江大学计算机科学与技术学院攻读硕士学位，加入[浙江大学CAD&CG国家重点实验室](http://www.cad.zju.edu.cn/)
@@ -28,6 +29,7 @@ type: page
 * 2014.12 被评为厦门大学信息科学与技术学院“院长荣誉奖”
 * 2014.09 荣获得国家奖学金
 * 2014.07 参加第四届“华为杯”全国大学生智能设计竞赛荣获二等奖
+* 2011.09 通过高考进入厦门大学信息科学与技术学院计算机科学与技术专业
 
 ## 联系我
 
