@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "基于数字几何处理的数字化牙齿隐形正畸技术研究"
-date:       2017-06-11 12:00:00
+date:       2017-06-10 12:00:00
 categories: polygon-mesh-processing
 tags:  polygon-mesh-processing mesh teeth projects
 author: Tandy
@@ -45,8 +45,8 @@ author: Tandy
 	- 虚拟牙龈建模
 	- 假体填充物建模
 - 模型修复
-	- 基于交互的手动修复
-	- 基于模板的自动修复
+	- [基于交互的手动修复](({{ site.baseurl }}/2017/06/03/tooth-repair-two-sides/))
+	- [基于模板的自动修复]({{ site.baseurl }}/2017/06/03/template-based-reconstruction/)
 - 网格形变
 	- 牙龈形变
 	- 假体填充物形变
