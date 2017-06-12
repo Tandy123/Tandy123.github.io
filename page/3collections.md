@@ -18,6 +18,12 @@ type: page
 
 * [Google Patent](https://www.google.com/?tbm=pts)
 
+## Marchine Learning
+
+* [Machine Learning Foundations video](https://www.youtube.com/playlist?list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf)
+
+* [Machine Learning Foundations slides](http://www.csie.ntu.edu.tw/~htlin/mooc/)
+
 ## Graphics API
 
 ### OpenGL
@@ -43,3 +49,18 @@ type: page
 ### Markdown
 
 * [在线Markdown编辑器](http://mahua.jser.me/)
+
+## Online Judge
+
+* [Code Jam](https://code.google.com/codejam/past-contests)
+
+* [HihoCoder](http://hihocoder.com/contests)
+
+* [LeetCode](https://leetcode.com/)
+
+* [NowCoder](https://www.nowcoder.com/activity/oj)
+
+
+## 博客
+
+* [matrix67](http://www.matrix67.com/blog)
