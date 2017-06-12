@@ -82,6 +82,8 @@ author: Tandy
 
 ![][8]
 
+- 机器学习是**从资料（数据）出发，通过一些演算法算出一个假说g，要求这个假说接近未知的最终目标函数f**
+
 - 机器学习时下十分热门，这门课程很适合入门，一些基本的概念介绍得很详细，通俗易懂，下面附上课程的YouTube连接，共勉加油！
 
 [https://www.youtube.com/playlist?list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf](https://www.youtube.com/playlist?list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf)
