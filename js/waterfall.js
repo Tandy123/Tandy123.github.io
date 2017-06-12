@@ -13,7 +13,40 @@
      * 内容JSON
      */
   var demoContent = [
-
+ {
+      demo_link: '/2017/06/03/tooth-repair-two-sides/',
+      img_link: '/images/demos/tooth_repair2.gif',
+      title: '牙齿侧面修复',
+      core_tech: '3D Mesh Repair',
+      description: '基于meshlab实现最经典网格 <a href ="https://drive.google.com/file/d/0Bz89KcgZMI0RUlhnc3NkZWV0TnM/view"target="_blank">补洞算法</a>，并对其进行改进，加入bridge分割洞的功能，从而实现网格的局部修复。'
+    },{
+      demo_link: '/2017/06/03/template-based-reconstruction/',
+      img_link: '/images/demos/template_based_reconstruction2.gif',
+      title: '基于模板的牙根重建',
+      core_tech: 'Template-based 3D Mesh Reconstruction',
+      description: '基于模板的牙根重建，可以修复牙齿和重建牙根的效果'
+    }, {
+      demo_link: '/2017/06/04/virtual-gum-construction',
+      img_link: '/images/demos/virtual_gum_construction2.gif',
+      title: '虚拟牙龈构造',
+      core_tech: '3D Mesh Construction and Processing',
+      description: '基于meshlab根据牙齿上的控制点构造虚牙龈，并对其编辑修改。'
+    }, {
+      demo_link: '/2017/06/05/virtual-gum-deformation/',
+      img_link: '/images/demos/virtual_gum_deformation2.gif',
+      title: '牙龈形变',
+      core_tech: '3D Mesh Real-time Construction',
+      description: '通过更新控制点实时构造虚拟牙龈实现牙龈实时形变的效果。'
+    }
+ /*   , {
+      demo_link: 'http://gaohaoyang.github.io/test/headerTransition/',
+      img_link: 'https://ooo.0o0.ooo/2016/06/20/5768c1597d1fe.png',
+      code_link: 'https://github.com/Gaohaoyang/test/tree/master/headerTransition',
+      title: '虚拟牙龈构造',
+      core_tech: '3D Mesh Construction and Processing',
+      description: '基于meshlab根据牙齿上的控制点构造虚牙龈，并对其编辑修改。'
+    }
+*/
   ];
 
   contentInit(demoContent) //内容初始化
