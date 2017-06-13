@@ -112,7 +112,7 @@ author: Tandy
 [5]: {{ site.baseurl }}/images/201706/18.png
 [6]: {{ site.baseurl }}/images/201706/19.png
 [7]: {{ site.baseurl }}/images/201706/20.png
-[8]: {{ site.baseurl }}/images/201706/21.pn
+[8]: {{ site.baseurl }}/images/201706/21.png
 [9]: {{ site.baseurl }}/images/201706/22.png
 [10]: {{ site.baseurl }}/images/201706/23.png
 [11]: {{ site.baseurl }}/images/201706/24.png
