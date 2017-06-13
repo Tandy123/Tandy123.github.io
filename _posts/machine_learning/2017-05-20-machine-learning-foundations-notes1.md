@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "【机器学习】机器学习基石学习笔记1"
+title:      "【机器学习】机器学习基石学习笔记1：机器学习定义"
 date:       2017-05-20 12:00:00
 categories: MachineLearning
 tags:  machine-learning notes
