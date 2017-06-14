@@ -98,3 +98,57 @@ author: Tandy
 	int (*f)(int a, int b); // 声明函数指针  
 - 通过与1中指针函数的定义对比可以看到，函数指针与指针函数的最大区别是函数指针的函数名是一个指针，即函数名前面有一个指针类型的标志型号“*”。
 - 当然，函数指针的返回值也可以是指针。
+
+#### 举例
+
+#include<stdio.h>
+
+```c++
+float add(float x,float y)
+{return (x+y);}
+float sub(float x,float y)
+{return (x-y);}
+float mul(float x,float y)
+{return (x*y);}
+float div(float x,float y)
+{return (x/y);}
+
+float result(float x,float y,float(*pf)(float,float))
+{
+    float s;
+    s=(*pf)(x,y);
+    return s;
+}
+
+void main()
+{
+    float a,b,s;
+    char op;
+    printf(""please select your operation (input +,-,*or/)\n");
+    scanf("%c",&op);
+    printf("please input the two operand\n");
+    scanf("%f %f",&a,&b);
+    switch(op)
+   {
+    case '+':s=result(a,b,add);break;
+    case '-':s=result(a,b,sub);break;
+    case '*':s=result(a,b,mul);break;
+    case '/':s=result(a,b,div);break;
+    }
+    printf("the operation is :%f%c%f=%f\n",a,op,b,s);
+}
+```
+
+#### 作用
+
+- 通俗解释：
+
+你有了一只手（函数指针），可以用来装备并切换武器打怪，比如可以装备刀子，或者装备棍子。当你的武器只有一种或者比较少的时候，可能这只手切换武器的功能不常用到。当到了后期，你的武器多了，那你因为有了这只能装备并切换武器的手，而可以更有效率的打怪。
+
+- 正规解释：
+
+便于分层设计、利于系统抽象、降低耦合度以及使接口与实现分开
+
+- 参考资料 
+
+[函数指针的好处、作用](http://blog.csdn.net/wujiangguizhen/article/details/17153495)
