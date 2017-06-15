@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "【机器学习】机器学习基石学习笔记4：机器学习的可行性"
-date:       2017-05-20 12:02:00
+date:       2017-05-20 12:03:00
 categories: MachineLearning
 tags:  machine-learning notes Machine-Learning-Foundations
 author: Tandy
@@ -49,25 +49,15 @@ author: Tandy
 
 ### 弹珠实验和机器学习
 
-| 罐子小球 | 机器学习 
-|未知的橙色小球比例|某一确定的假设在整个X输入空间中，输入向量x满足条件 的占整个输入空间的比例
+- 其实前文中提到的例子可以和机器学习问题一一对应：
 
-抽取的小球∈整个罐子中的小球
-
-训练输入样本集 整个数据集X
-
-橙色小球
-
-假设h作用于此输入向量x与给定的输出不相等
-
-绿色小球
-
-假设h作用于此输入向量x与给定的输出相等
-
-小球样本是从罐子中独立随机抽取的
-
-输入样本x是从整个数据集D中独立随机选择的
-
+罐子小球 | 机器学习 
+--------|---------
+未知的橙色小球比例 | 某一确定的假设在整个X输入空间中，输入向量x满足条件 的占整个输入空间的比例  
+抽取的小球∈整个罐子中的小球 | 训练输入样本集 整个数据集X 
+橙色小球 | 假设h作用于此输入向量x与给定的输出不相等
+绿色小球 | 假设h作用于此输入向量x与给定的输出相等
+小球样本是从罐子中独立随机抽取的 | 输入样本x是从整个数据集D中独立随机选择的
 
 ![][5]
 
@@ -112,85 +102,52 @@ author: Tandy
 
 ### 不好的资料
 
-- 不好的资料=没有自由的选择=对于一些存在的h，Ein和Eout差得很多
+- 上面的例子很形象，每一个罐子都是一个假设集合，我们默认是挑表现最好的，也就是全绿色（错误率为0）的那个假设。但是当从众多假设选择时，得到全对的概率也在增加，就像丢硬币一样，当有个150个童鞋同时丢硬币5次，那么这些人中出现5面同时朝上的概率为99%，所以表现好的有可能是小概率事件发生（毕竟对于每个假设其泛化能力是PAC），其不一定就有好的泛化能力（Ein和Eout相同），我们称这次数据是坏数据（可以理解为选到了泛化能力差的假设），在坏数据上，Ein和Eout的表现是差别很大的，这就是那个小概率事件，Hoeffding's inequality告诉我们，每个h在采样数据上Ein和Eout差别很大的概率很低（坏数据）
+- 坏数据=没有自由的选择=对于一些存在的h，Ein和Eout差得很多
 
 ![][12]
 
 - 接下来求不好的资料的概率是多少？（有一个h不好就是不好）
-- 最终的结论：我们应该选一个g，这个g的Ein最小，则Eout也很可能比较小
+- 最终的结论：我们每次选取Ein最小的h就是合理的，因为如果M小N大，出现表现好的坏数据的假设几率降低了，我们选择表现后就有信心认为其有良好的泛化能力。
 
 ![][13]
 
 ### 小结
 
 - 前提：h只有有限多种选择，资料量N够多
-- 则：不管演算法怎么选，Ein和Eout都会接近
-- 所以：要选一个Ein最小的，即在这种情况下（h只有有限多种选择，资料量N够多），机器学习是可以做到的
+- 则：不管演算法怎么选，Ein和Eout都会接近，即机器学习是可以做到的
+- 所以：要选一个Ein最小的
 - 那无限条的假说的情况的，以后再说
 
 ![][14]
 
-### 小结
+## 总结
+
+- 整体证明机器可以学习分了两个层面，首先对于单个假设，根据Hoeffding不等式，当N很大时，其泛化能力强是PAC的；而实际上机器学习是从众多假设中挑Ein最小的（通过测试集找）假设，这个的理论基础是当M不大(有限)，N大，选到泛化能力差的假设概率低（用到了单个假设的结论）。
 
 ![][15]
 
-## 根据不同的输入空间X分类
- 
-### 具体特征
-
-- 带有人类智慧预处理之后的描述，处理起来比较简单
-
-![][16]
-
-### 抽象特征
-
-- 数据的原始特征，比较抽象，处理起来比较困难
-
-- 以字体识别为例，具体特征就是字写得是否对称，字的密度
-- 抽象特征是16*16的图像构成的256维的空间
-
-![][17]
-
-### 抽取特征：
-
-![][18]
-
-### 小结
-
-- 通常简单地假设我们已经有了具体特征
-- 大部分情况下，数据中三种特征（具体，抽象，原始）都有
-
-![][19]
-
-## 总结
-
-![][20]
 
 [1]: {{ site.baseurl }}/images/201706/50.png
-[2]: http://farm5.staticflickr.com/4232/34439442214_e180647825_b.jpg
-[3]: {{ site.baseurl }}/images/201706/32.png
-[4]: {{ site.baseurl }}/images/201706/33.png
-[5]: {{ site.baseurl }}/images/201706/34.png
-[6]: {{ site.baseurl }}/images/201706/35.png
-[7]: {{ site.baseurl }}/images/201706/36.png
-[8]: {{ site.baseurl }}/images/201706/37.png
-[9]: {{ site.baseurl }}/images/201706/38.png
-[10]: {{ site.baseurl }}/images/201706/39.png
-[11]: {{ site.baseurl }}/images/201706/40.png
-[12]: {{ site.baseurl }}/images/201706/41.png
-[13]: {{ site.baseurl }}/images/201706/42.png
-[14]: {{ site.baseurl }}/images/201706/43.png
-[15]: {{ site.baseurl }}/images/201706/44.png
-[16]: {{ site.baseurl }}/images/201706/45.png
-[17]: {{ site.baseurl }}/images/201706/46.png
-[18]: {{ site.baseurl }}/images/201706/47.png
-[19]: {{ site.baseurl }}/images/201706/48.png
-[20]: {{ site.baseurl }}/images/201706/49.png
+[2]: {{ site.baseurl }}/images/201706/51.png
+[3]: {{ site.baseurl }}/images/201706/52.png
+[4]: {{ site.baseurl }}/images/201706/53.png
+[5]: {{ site.baseurl }}/images/201706/54.png
+[6]: {{ site.baseurl }}/images/201706/55.png
+[7]: {{ site.baseurl }}/images/201706/56.png
+[8]: {{ site.baseurl }}/images/201706/57.png
+[9]: {{ site.baseurl }}/images/201706/58.png
+[10]: {{ site.baseurl }}/images/201706/59.png
+[11]: {{ site.baseurl }}/images/201706/60.png
+[12]: {{ site.baseurl }}/images/201706/61.png
+[13]: {{ site.baseurl }}/images/201706/62.png
+[14]: {{ site.baseurl }}/images/201706/63.png
+[15]: {{ site.baseurl }}/images/201706/64.png
 
 ## 参考资料
 
 - [Machine Learning Foundations](http://www.csie.ntu.edu.tw/~htlin/mooc/)
 
+- [机器学习的可能性](http://www.cnblogs.com/HappyAngel/p/3495804.html)
 
-
-
+- [在何时可以使用机器学习(4)](http://www.cnblogs.com/ymingjingr/p/4276386.html)
