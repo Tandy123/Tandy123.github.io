@@ -19,7 +19,7 @@ type: page
 
 [我的作品]({{site.baseurl }}/demo/)
 
-热爱篮球，绘画，三国杀，喜欢挑战不一样的事物。
+热爱篮球，游泳，绘画，三国杀，喜欢挑战不一样的事物。
 
 
 一些经历：
@@ -37,6 +37,7 @@ type: page
 * GitHub：[Tandy](https://github.com/tandy123)
 * Email：deyantang[AT]gmail.com
 * [Twitter](https://twitter.com/deyantang)
+* [豆瓣](https://www.douban.com/people/deyantang/)
 
 
 ## 友情链接
