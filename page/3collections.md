@@ -60,6 +60,10 @@ type: page
 
 * [NowCoder](https://www.nowcoder.com/activity/oj)
 
+## 实用工具
+
+* 一个在线识别手写公式的网站[Mathematical Expression Recognition](http://cat.prhlt.upv.es/mer/)
+
 
 ## 博客
 
