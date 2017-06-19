@@ -45,7 +45,7 @@ author: Tandy
 	- [虚拟牙龈建模]({{ site.baseurl }}/2017/06/04/virtual-gum-construction/)
 	- 假体填充物建模
 - 模型修复
-	- [基于交互的手动修复](({{ site.baseurl }}/2017/06/03/tooth-repair-two-sides/))
+	- [基于交互的手动修复]({{ site.baseurl }}/2017/06/03/tooth-repair-two-sides/)
 	- [基于模板的自动修复]({{ site.baseurl }}/2017/06/03/template-based-reconstruction/)
 - 网格形变
 	- [牙龈形变]({{ site.baseurl }}/2017/06/05/virtual-gum-deformation/)
