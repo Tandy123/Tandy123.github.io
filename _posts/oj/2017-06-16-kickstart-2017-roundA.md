@@ -59,9 +59,7 @@ The pictures below illustrate the grids from the three sample cases and a valid 
 
 ![](https://code.google.com/codejam/contest/images/?image=sample3.png&p=5680283126857728&c=8284486)
 
-## Analysis
-
-### My Solution
+## My Solution
 It is not very hard to find the rule of  the number of the squares. Firstly, the number of  aligned squares S1 can be expressed as  the following formula:
 
 ![][1]
@@ -188,7 +186,7 @@ void main() {
 ```
 AC!  
 
-### Others' Solution
+## Others' Solution
 
  From the contest dashboard, I find another solution without using modular multiplicative inverse, Because we can avoid division by the reduction of a fraction. Here is the code:
 
@@ -306,9 +304,7 @@ In sample case #2, the title Shakespeare matches both patterns.
 
 In sample case #3, there is no title that matches both patterns. Shakespeare, for example, does not work because the * at the start of the *peare pattern cannot match six letters.
 
-## Analysis
-
-### My Solution
+## My Solution
 
 This problem can be solved by dynamic planning algorithm. 
 
@@ -319,7 +315,7 @@ Here is the detail:
 - When filling matrix, we can break the loop in advance if there is no change in a row of matrix.
 
 The code as following:
-```
+```c++
 #include <iostream>
 #include <string>
 using namespace std;
@@ -439,7 +435,7 @@ int main(void) {
 	fclose(stdout);
 }
 ```
-### Others' Solution
+## Others' Solution
 
 - We can replace one '\*' by four '\*', so every star can only match zero and one character. 
 
@@ -592,9 +588,7 @@ For each test case, output one line containing Case #x: y, where x is the test c
 In the first test case, one solution is to place two cubes with an edge length of 3 such that their corners with minimum (x, y, z) coordinates are at (0, 0, 0) and (3, 3, 3).  
 In the second test case, one solution is to place two cubes with an edge length of 5 such that their corners with minimum (x, y, z) coordinates are at (-1, -1, -1) and (1, 2, 3).  
 
-## Analysis
-
-### My Solution
+## My Solution
 
 - First, we need to find the bounding-box of all the stars.
 - Then we put one box in every corner of the bounding-box. it can contain some of the stars.
@@ -602,7 +596,7 @@ In the second test case, one solution is to place two cubes with an edge length 
 - The key point of solving this problem is using dichotomy. And the time complexity is O(NlogM), here M is the largest size of the space
 - My code as following:
 
-```
+```c++
 #include <iostream>
 #include <cstdio>
 #include <algorithm>
