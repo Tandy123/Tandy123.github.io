@@ -441,7 +441,7 @@ int main(void) {
 
 - Here is the code:
 
-```
+```c++
 //#include <bits/stdc++.h>
 #include <iostream>
 #include <string>

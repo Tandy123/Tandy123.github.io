@@ -32,8 +32,6 @@ height:0;">
 
 - 视频看不了，试试下面的
 
-[![点这里播放视频]({{ site.baseurl }}/images/demos/template_based_reconstruction2.png)](http://player.youku.com/embed/XMjgxNDAwNzQ4MA==)
-
 <div style="max-width:10000px; margin:0 auto 10px;" >
 <div 
 style="position: relative; 
@@ -43,3 +41,5 @@ height:0;">
 <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"  src="http://player.youku.com/embed/XMjgxNDAwNzQ4MA==" frameborder="0" allowfullscreen></iframe>
 </div>
 </div>
+
+[![点这里播放视频]({{ site.baseurl }}/images/demos/template_based_reconstruction2.png)](http://player.youku.com/embed/XMjgxNDAwNzQ4MA==)
