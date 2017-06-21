@@ -135,7 +135,6 @@ author: Tandy
 - 语言：C/C++，Java(Android，Web)，Python，Html5，JavaScript
 - 有图形学相关编程经验，熟悉MeshLab框架下的开发，用过OpenGL，WebGL，会渲染
 - 会使用版本管理工具：Svn，Git
-- 了解常用设计模式
 
 ### 语言：
 - 英语四级 498
