@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "【机器学习】机器学习基石学习笔记6：举一反三"
-date:       2017-05-20 12:05:00
+date:       2017-05-06 12:05:00
 categories: MachineLearning
 tags:  machine-learning notes Machine-Learning-Foundations
 author: Tandy

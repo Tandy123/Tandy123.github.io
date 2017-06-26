@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "【机器学习】机器学习基石学习笔记7：VC维"
-date:       2017-05-20 12:07:00
+date:       2017-05-07 12:07:00
 categories: MachineLearning
 tags:  machine-learning notes Machine-Learning-Foundations vc-dimension
 author: Tandy

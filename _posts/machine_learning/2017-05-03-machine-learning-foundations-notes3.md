@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "【机器学习】机器学习基石学习笔记3：机器学习的分类"
-date:       2017-05-20 12:02:00
+date:       2017-05-03 12:02:00
 categories: MachineLearning
 tags:  machine-learning notes 
 author: Tandy

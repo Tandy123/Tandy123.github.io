@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "【机器学习】机器学习基石学习笔记4：机器学习的可行性"
-date:       2017-05-20 12:03:00
+date:       2017-05-04 12:03:00
 categories: MachineLearning
 tags:  machine-learning notes Machine-Learning-Foundations
 author: Tandy

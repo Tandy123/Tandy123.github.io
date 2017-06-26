@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "【机器学习】机器学习基石学习笔记5：训练和测试"
-date:       2017-05-20 12:04:00
+date:       2017-05-05 12:04:00
 categories: MachineLearning
 tags:  machine-learning notes Machine-Learning-Foundations
 author: Tandy

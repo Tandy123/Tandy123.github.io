@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "【机器学习】机器学习基石学习笔记2：PLA算法"
-date:       2017-05-20 12:01:00
+date:       2017-05-02 12:01:00
 categories: MachineLearning
 tags:  machine-learning notes PLA
 author: Tandy
