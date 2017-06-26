@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "【设计模式】单例模式"
-categories: Design Mode
+categories: Design-Mode
 tags:  design-mode singleton
 author: Tandy
 ---
