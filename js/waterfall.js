@@ -37,6 +37,12 @@
       title: '牙龈形变',
       core_tech: '3D Mesh Real-time Construction',
       description: '通过更新控制点实时构造虚拟牙龈实现牙龈实时形变的效果。'
+    },{
+      demo_link: '/2017/06/01/error-map/',
+      img_link: '/images/demos/error_map2.gif',
+      title: '误差分析',
+      core_tech: '3D Mesh Error Map',
+      description: '通过基于Qt实现的Color Bar对修复好的模型进行误差评估'
     }
  /*   , {
       demo_link: 'http://gaohaoyang.github.io/test/headerTransition/',
@@ -76,7 +82,7 @@ function contentInit(content) {
   // var htmlStr = htmlArr.join('')
   var htmlStr = ''
   for (var i = 0; i < content.length; i++) {
-    htmlStr += '<div class="grid-item">' + '   <a class="a-img" href="' + content[i].demo_link + '">' + '       <img src="' + content[i].img_link + '">' + '   </a>' + '   <h3 class="demo-title">' + '       <a href="' + content[i].demo_link + '">' + content[i].title + '</a>' + '   </h3>' + '   <p>主要技术：' + content[i].core_tech + '</p>' + '   <p>' + content[i].description + '       <a href="' + content[i].code_link + '">源代码 <i class="fa fa-code" aria-hidden="true"></i></a>' + '   </p>' + '</div>'
+    htmlStr += '<div class="grid-item">' + '   <a class="a-img" href="' + content[i].demo_link + '">' + '       <img src="' + content[i].img_link + '">' + '   </a>' + '   <h3 class="demo-title">' + '       <a href="' + content[i].demo_link + '">' + content[i].title + '</a>' + '   </h3>' + '   <p>主要技术：' + content[i].core_tech + '</p>' + '   <p>' + content[i].description + '       <a href="' + content[i].demo_link + '">...更多内容 </a>' + '</div>'
   }
   var grid = document.querySelector('.grid')
   grid.insertAdjacentHTML('afterbegin', htmlStr)
