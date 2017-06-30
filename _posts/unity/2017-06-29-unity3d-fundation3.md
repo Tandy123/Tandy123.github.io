@@ -2,7 +2,7 @@
 layout: post
 title:  "【Unity3D】Unity游戏编程基础学习笔记3"
 categories: Unity3D
-tags: unity3d game notes C#
+tags: unity3d game notes C# script
 author: Tandy
 ---
 
@@ -20,9 +20,11 @@ author: Tandy
 ## 关于课程
 
 这次课程包含以下内容 
+
 - 使用C#编写脚本
-- 
-- 这次的内容稍微有点多，尤其是脚本代码还得好好消化一下
+- 完成项目2《慕课英雄》第三人称简易版
+- 改进项目2《慕课英雄》第三人称简易版
+
 
 
 ## 使用C#编写脚本
