@@ -18,6 +18,20 @@ type: page
 
 * [Google Patent](https://www.google.com/?tbm=pts)
 
+## UNITY
+
+* [Unity官方教程](http://unity3d.com/cn/learn/tutorials)
+
+* [Unity官方用户手册](http://docs.unity3d.com/Manual/index.html)
+
+* [Unity官方脚本API](http://docs.unity3d.com/ScriptReference/index.html)
+
+* [Unity中文论坛](http://forum.china.unity3d.com/forum.php)
+
+* [Unity官方资源商店](https://www.assetstore.unity3d.com/en/)
+
+* [基于Unity引擎的游戏开发基础](https://www.coursera.org/learn/unity-yinqing-youxi-kaifa/home/welcome) 
+
 ## Marchine Learning
 
 * [Machine Learning Foundations video](https://www.youtube.com/playlist?list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf)
