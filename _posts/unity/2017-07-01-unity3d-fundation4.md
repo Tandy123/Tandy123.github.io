@@ -1,4 +1,4 @@
-7/2/2017 2:07:29 PM ---
+---
 layout: post
 title:  "【Unity3D】Unity游戏编程基础学习笔记4"
 categories: Unity3D
@@ -183,8 +183,8 @@ author: Tandy
 	- 图形用户界面与移动平台界面（uGUI：PC & 移动平台）
 	- 粒子系统（Particle System）与线渲染器（Line Renderer）
 	- 物品收集（Pickup）、游戏胜利与失败画面
-- 这次的内容干货满满，一定要好好消化，附上最终实现的游戏效果
-
+- 这次的内容干货满满，一定要好好消化，尤其是UI的制作，虽然很繁琐，但却是玩家体验的关键因素，附上最终实现的游戏效果  
+![Markdown](http://i2.kiimg.com/599048/ea99e7727a571de7.png)
 
 ## 参考资料
 
