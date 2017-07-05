@@ -80,7 +80,7 @@ author: Tandy
 
 ## 第四章：CUDA C并行编程
 
-- <<<a,b>>>：尖括号的第一个参数表示设备在执行核函数时使用的并行线程块的数量，具体可参考[Kernel 参数介绍](http://blog.csdn.net/w09103419/article/details/52451172)
+- \<\<\<a,b\>\>\>：尖括号的第一个参数表示设备在执行核函数时使用的并行线程块的数量，具体可参考[Kernel 参数介绍](http://blog.csdn.net/w09103419/article/details/52451172)
 - 矢量求和的例子
 
 ```c
