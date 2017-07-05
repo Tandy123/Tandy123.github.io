@@ -213,7 +213,7 @@ google之后，发现了这个问题，在cuComplex(float a, float b) : r(a), i(
 
 ## 第五章：线程协作
 
-- add<<<N, 1>>>(dev_a, dev_b, dev_c);尖括号中：N---开启了N个线程块；1---每个线程块中创建1个线程。具体可参考[Kernel 参数介绍](http://blog.csdn.net/w09103419/article/details/52451172)
+- add\<\<\<N, 1\>\>\>(dev_a, dev_b, dev_c);尖括号中：N---开启了N个线程块；1---每个线程块中创建1个线程。具体可参考[Kernel 参数介绍](http://blog.csdn.net/w09103419/article/details/52451172)
 #### 在GPU上对更长的矢量求和
 - 第四章，说线程块数量不超过65535，同样，对应线程块中的线程数量，硬件也作出了限制 maxThreadPerBlock。
 - 现在，我们需要多线程块并且每个线程块中包含了多个线程，计算索引的方法类似于二维索引空间转换为线性空间的标准算法。
