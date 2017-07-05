@@ -61,7 +61,7 @@ author: Tandy
 - 具体实现中，用一个空碰撞体的来模拟玩家的位置，下图分别表示第三人称视角和第一人称视角的摄像机位置：  
 ![Markdown](http://i4.piimg.com/599048/8cd9215068858e64.png)
 
-- 第三人称视角效果图如下  
+- 第一人称视角效果图如下  
 ![Markdown](http://i4.piimg.com/599048/57d30db7e7254ce1.png)
 
 ## 图形用户界面与移动平台界面
@@ -76,7 +76,6 @@ author: Tandy
 	- 全新的布局系统
 	- 简单易用的UI控件
 	- 强大的事件处理系统
-- Reset():脚本编辑阶段执行，脚本绑定到游戏对象上执行一次  
 
 ### Canvas与EventSystem
 - Canvas是uGUI控件的容器，uGUI控件必须是Canvas的子对象；
