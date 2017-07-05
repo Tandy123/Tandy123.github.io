@@ -659,14 +659,15 @@ int main(void) {
 - 目前就看到这里，先消化一下，下次继续总结，加油！
 
 ## 关于这本书
-- 这里附上书单封面
+- 这里附上书的封面
 ![](http://images.bookuu.com/book/C/01109/97871113267931932116-fm.jpg)
 
 - 电子版的[链接](http://www.baidu.com/link?url=Go4Ha_3SRB_IdIb3x2gHwNUvctWGj2AdR--fhk3QhgkgT-lgfb6ua_gifBR8awSW&wd=&eqid=9fc0238f000009de00000004595c892f)
 
 ## 参考资料
 
+- [CUDA C Programming Guide](http://docs.nvidia.com/cuda/cuda-c-programming-guide/#axzz4lmcT5WbP)
 - [《GPU高性能编程CUDA实战》学习笔记](http://blog.csdn.net/w09103419/article/details/52473429)
 - [CUDA从入门到精通](http://blog.csdn.net/kkk584520/article/details/9413973)
-- [CUDA C Programming Guide](http://docs.nvidia.com/cuda/cuda-c-programming-guide/#axzz4lmcT5WbP)
+
 
