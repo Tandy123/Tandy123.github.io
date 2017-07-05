@@ -229,6 +229,7 @@ google之后，发现了这个问题，在cuComplex(float a, float b) : r(a), i(
 - 最终效果  
 ![Markdown](http://i4.piimg.com/599048/03fc188d41971931.gif)
 - 下面附上源码  
+
 ```c
 #include "../common/book.h"
 #include "../common/cpu_anim.h"
