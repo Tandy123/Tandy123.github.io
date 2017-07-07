@@ -43,6 +43,12 @@
       title: '误差分析',
       core_tech: '3D Mesh Error Map',
       description: '通过基于Qt实现的Color Bar对修复好的模型进行误差评估'
+    },{
+      demo_link: '/pointcloud/works/test34.html',
+      img_link: '/pointcloud/works/test34.html',
+      title: '简化街景预览',
+      core_tech: 'PointsCloud Line Extraction',
+      description: '基于WebGL实现简化街道的自动预览'
     }
  /*   , {
       demo_link: 'http://gaohaoyang.github.io/test/headerTransition/',
