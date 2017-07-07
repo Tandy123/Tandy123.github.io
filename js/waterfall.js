@@ -58,7 +58,7 @@
     }
     ,{
       demo_link: '/pointcloud/works/test34.html',
-      img_link: '/images/demos/pc1.png',
+      img_link: 'http://i1.buimg.com/599048/3f1fe5f905e72e27.png',
       title: '简化街景预览',
       core_tech: 'PointsCloud Line Extraction',
       description: '基于WebGL实现简化街道的自动预览'
