@@ -44,15 +44,21 @@
       core_tech: '3D Mesh Error Map',
       description: '通过基于Qt实现的Color Bar对修复好的模型进行误差评估'
     },{
-      demo_link: '/pointcloud/works/test34.html',
-      img_link: '/pointcloud/css/images/test34.png',
-      title: '简化街景预览',
-      core_tech: 'PointsCloud Line Extraction',
-      description: '基于WebGL实现简化街道的自动预览'
-    }
-    ,{
+      demo_link: '/pointcloud/works/test3.html',
+      img_link: 'http://i4.piimg.com/599048/36dc99eed90a1a85.gif',
+      title: '点云物体展示',
+      core_tech: 'Point Cloud',
+      description: '基于WebGL实现简单点云展示功能'
+    },{
       demo_link: '/pointcloud/works/test28.html',
       img_link: '/pointcloud/css/images/test28.png',
+      title: '高逼真度彩色点云场景',
+      core_tech: 'Point Cloud',
+      description: '基于WebGL实现高逼真度彩色点云场景预览及交互'
+    }
+    ,{
+      demo_link: '/pointcloud/works/test34.html',
+      img_link: '/images/demos/pc1.gif',
       title: '简化街景预览',
       core_tech: 'PointsCloud Line Extraction',
       description: '基于WebGL实现简化街道的自动预览'
