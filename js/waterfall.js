@@ -54,14 +54,14 @@
       title: '点云物体展示',
       core_tech: 'Point Cloud',
       description: '基于WebGL实现简单点云展示功能',
-      more_content: '/pointcloud/welcome/'
+      more_content: '/pointcloud/welcome'
     },{
       demo_link: '/pointcloud/works/test28.html',
       img_link: '/pointcloud/css/images/test28.png',
       title: '高逼真度彩色点云场景',
       core_tech: 'Point Cloud',
       description: '基于WebGL实现高逼真度彩色点云场景预览及交互',
-      more_content: '/pointcloud/welcome/'
+      more_content: '/pointcloud/welcome'
     }
     ,{
       demo_link: '/pointcloud/works/test34.html',
@@ -69,7 +69,7 @@
       title: '简化街景预览',
       core_tech: 'PointsCloud Line Extraction',
       description: '基于WebGL实现简化街道的自动预览',
-      more_content: '/pointcloud/welcome/'
+      more_content: '/pointcloud/welcome'
     }
  /*   , {
       demo_link: 'http://gaohaoyang.github.io/test/headerTransition/',
