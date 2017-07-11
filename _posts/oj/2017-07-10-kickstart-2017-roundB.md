@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "KickStart 2017 Round A"
-date:       2017-06-16 12:00:00
+title:      "KickStart 2017 Round B"
+date:       2017-07-10 12:00:00
 categories: Online-Judge
 tags:  oj kickstart google English
 author: Tandy
@@ -10,13 +10,13 @@ author: Tandy
 * content
 {:toc}
 
-Here is the solutino of KickStart 2017 Round A
+Here is the solutino of KickStart 2017 Round B
 
 
 
 
 
-# Problem A. Square Counting
+# Problem A. Math Encoder
 
 ### Problem
 Professor Math is working on a secret project and is facing a challenge where a list of numbers need to be encoded into a single number in the most efficient manner. After much research, Professor Math finds a 3 step process that can best encode the numbers:
