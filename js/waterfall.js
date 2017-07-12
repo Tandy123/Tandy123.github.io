@@ -70,6 +70,13 @@
       core_tech: 'PointsCloud Line Extraction',
       description: '基于WebGL实现简化街道的自动预览',
       more_content: '/pointcloud/welcome'
+    },{
+      demo_link: '/webGLExample/index_threejs_render.html',
+      img_link: 'http://i1.buimg.com/599048/da5a8ca65d0f3ab3.gif',
+      title: '牙齿渲染',
+      core_tech: 'Teeth Rendering, Shader, Parameterization',
+      description: '基于WebGL实现牙齿渲染效果',
+      more_content: 'https://github.com/solesonglei/webGLExample'
     }
  /*   , {
       demo_link: 'http://gaohaoyang.github.io/test/headerTransition/',
