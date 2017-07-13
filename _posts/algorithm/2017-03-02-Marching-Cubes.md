@@ -20,8 +20,8 @@ author: Tandy
 
 #### 等值面
 - 空间中所有具有某个相同值的点的集合，可以类比为地形图里的等高线。
-
-{(x,y,z)|f(x,y,z)=c},c是常数
+	
+	{(x,y,z)\|f(x,y,z)=c},c是常数
 
 ![Markdown](http://i1.buimg.com/599048/fe56dbaa307c01b7.jpg)
 
@@ -55,7 +55,7 @@ author: Tandy
 
 ## 实现效果
 
-- 利用CUDA写了一个简单的Demo
+- 利用CUDA写了一个简单的Demo，通过调整等值面的阈值，可以得到不同的表面模型。
 
 ![Markdown](http://i1.buimg.com/599048/94e313f3b8ff3fde.gif)
 

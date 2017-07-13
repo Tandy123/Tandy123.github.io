@@ -102,6 +102,14 @@
       description: '基于Unity3D实现的第一人称射击游戏',
       more_content: '/2017/07/02/unity3d-fundation5/#慕课英雄第一人称完整版'
     }
+    ,{
+      demo_link: '/2017/03/02/Marching-Cubes/',
+      img_link: 'http://i1.buimg.com/599048/94e313f3b8ff3fde.gif',
+      title: 'Marching Cubes等值面提取算法',
+      core_tech: 'Marching Cubes',
+      description: '基于CUDA实现的Marching Cubes等值面提取算法Demo',
+      more_content: '/2017/03/02/Marching-Cubes/'
+    }
  /*   , {
       demo_link: 'http://gaohaoyang.github.io/test/headerTransition/',
       img_link: 'https://ooo.0o0.ooo/2016/06/20/5768c1597d1fe.png',
