@@ -54,6 +54,13 @@ height:0;">
 </div>
 </div>
 
+- 完整版游戏下载连接 [http://pan.baidu.com/s/1nvuRWLj](http://pan.baidu.com/s/1nvuRWLj)
+
+- 操作说明
+	- s键控制视角切换
+
+- 完整Unity项目下载链接 [http://pan.baidu.com/s/1kVNwR9l](http://pan.baidu.com/s/1kVNwR9l)
+
 #### 《慕课英雄》第三人称简易版
 
 - 涉及内容包括：
@@ -76,6 +83,8 @@ height:0;">
 	- j控制射击
 	- 游戏中有两个关卡，第一关打死5个僵尸过关，第二关打死10个通关，僵尸一开始随机游走，当和僵尸的距离小于一定阈值（50m）时，僵尸会开始对英雄进行追击
 
+- 完整Unity项目下载链接 [http://pan.baidu.com/s/1i5Ibv7Z](http://pan.baidu.com/s/1i5Ibv7Z)
+
 #### 《慕课英雄》第一人称完整版
 
 - 涉及内容包括：
@@ -94,13 +103,15 @@ height:0;">
 
 ![Markdown](http://i2.kiimg.com/599048/ba68da3465e3d5cb.gif)
 
-- 完整版游戏下载连接 [http://pan.baidu.com/s/1nvuRWLj](http://pan.baidu.com/s/1nvuRWLj)
+- 完整版游戏下载连接 [http://pan.baidu.com/s/1jIMde2E](http://pan.baidu.com/s/1jIMde2E)
 
 - 操作说明
 	- 鼠标控制方向
 	- wsad控制移动
 	- 鼠标左键控制射击
 	- 达到一定数目的僵尸即可通过，受到僵尸攻击会掉血，捡到红色药瓶可以会血
+
+- 完整Unity项目下载链接 []()
 
 ## 学习心得
 
