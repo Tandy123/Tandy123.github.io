@@ -42,6 +42,18 @@ author: Tandy
 
 ![Markdown](http://i4.piimg.com/599048/b593f1106137dbc9.gif)
 
+- 完整视频演示
+
+<div style="max-width:10000px; margin:0 auto 10px;" >
+<div 
+style="position: relative; 
+width:100%;
+padding-bottom:56.25%; 
+height:0;">
+<iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"  src="http://player.youku.com/embed/XMjg1NDU3NzQxNg==" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+
 #### 《慕课英雄》第三人称简易版
 
 - 涉及内容包括：
@@ -56,6 +68,13 @@ author: Tandy
 - 项目演示
 
 ![Markdown](http://i2.kiimg.com/599048/a920d6a26174c79a.gif)
+
+- 完整版游戏下载连接 [http://pan.baidu.com/s/1nvuRWLj](http://pan.baidu.com/s/1nvuRWLj)
+
+- 操作说明
+	- ws控制前进后退，ad控制转向
+	- j控制射击
+	- 游戏中有两个关卡，第一关打死5个僵尸过关，第二关打死10个通关，僵尸一开始随机游走，当和僵尸的距离小于一定阈值（50m）时，僵尸会开始对英雄进行追击
 
 #### 《慕课英雄》第一人称完整版
 
@@ -75,6 +94,13 @@ author: Tandy
 
 ![Markdown](http://i2.kiimg.com/599048/ba68da3465e3d5cb.gif)
 
+- 完整版游戏下载连接 [http://pan.baidu.com/s/1nvuRWLj](http://pan.baidu.com/s/1nvuRWLj)
+
+- 操作说明
+	- 鼠标控制方向
+	- wsad控制移动
+	- 鼠标左键控制射击
+	- 达到一定数目的僵尸即可通过，受到僵尸攻击会掉血，捡到红色药瓶可以会血
 
 ## 学习心得
 

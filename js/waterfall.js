@@ -49,34 +49,58 @@
       description: '通过基于Qt实现的Color Bar对修复好的模型进行误差评估',
       more_content: '/2017/06/01/error-map/'
     },{
-      demo_link: '/pointcloud/works/test3.html',
+      demo_link: 'https://tandy123.github.io/pointcloud/works/test3.html',
       img_link: 'http://i4.piimg.com/599048/36dc99eed90a1a85.gif',
       title: '点云物体展示',
       core_tech: 'Point Cloud',
       description: '基于WebGL实现简单点云展示功能',
-      more_content: '/pointcloud/welcome'
+      more_content: 'https://tandy123.github.io/pointcloud/welcome'
     },{
-      demo_link: '/pointcloud/works/test28.html',
-      img_link: '/pointcloud/css/images/test28.png',
+      demo_link: 'https://tandy123.github.io/pointcloud/works/test28.html',
+      img_link: 'https://tandy123.github.io/pointcloud/css/images/test28.png',
       title: '高逼真度彩色点云场景',
       core_tech: 'Point Cloud',
       description: '基于WebGL实现高逼真度彩色点云场景预览及交互',
-      more_content: '/pointcloud/welcome'
+      more_content: 'https://tandy123.github.io/pointcloud/welcome'
     }
     ,{
-      demo_link: '/pointcloud/works/test34.html',
+      demo_link: 'https://tandy123.github.io/pointcloud/works/test34.html',
       img_link: 'http://i1.buimg.com/599048/3f1fe5f905e72e27.png',
       title: '简化街景预览',
       core_tech: 'PointsCloud Line Extraction',
       description: '基于WebGL实现简化街道的自动预览',
-      more_content: '/pointcloud/welcome'
+      more_content: 'https://tandy123.github.io/pointcloud/welcome'
     },{
-      demo_link: '/webGLExample/index_threejs_render.html',
+      demo_link: 'https://tandy123.github.io/webGLExample/index_threejs_render.html',
       img_link: 'http://i1.buimg.com/599048/da5a8ca65d0f3ab3.gif',
       title: '牙齿渲染',
       core_tech: 'Teeth Rendering, Shader, Parameterization',
       description: '基于WebGL实现牙齿渲染效果',
       more_content: 'https://github.com/solesonglei/webGLExample'
+    }
+    ,{
+      demo_link: '/2017/07/02/unity3d-fundation5/#多米诺骨牌',
+      img_link: 'http://i2.kiimg.com/599048/c6f13bfee1b2ab23.png',
+      title: 'Unity多米诺骨牌',
+      core_tech: 'Unity3D',
+      description: '基于Unity3D实现的多米诺骨牌Demo',
+      more_content: '/2017/07/02/unity3d-fundation5/#多米诺骨牌'
+    }
+    ,{
+      demo_link: '/2017/07/02/unity3d-fundation5/#慕课英雄第三人称简易版',
+      img_link: 'http://i2.kiimg.com/599048/ac6f09cd9b70bf6e.png',
+      title: '第三人称射击游戏',
+      core_tech: 'Unity3D',
+      description: '基于Unity3D实现的第三人称射击游戏',
+      more_content: '/2017/07/02/unity3d-fundation5/#慕课英雄第三人称简易版'
+    }
+    ,{
+      demo_link: '/2017/07/02/unity3d-fundation5/#慕课英雄第一人称完整版',
+      img_link: 'http://i2.kiimg.com/599048/ba68da3465e3d5cb.gif',
+      title: '第一人称射击游戏',
+      core_tech: 'Unity3D',
+      description: '基于Unity3D实现的第一人称射击游戏',
+      more_content: '/2017/07/02/unity3d-fundation5/#慕课英雄第一人称完整版'
     }
  /*   , {
       demo_link: 'http://gaohaoyang.github.io/test/headerTransition/',
