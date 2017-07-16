@@ -83,6 +83,7 @@ Since the output can be a really big number, we only ask you to output the remai
 - The problem is not very hard, it even not neccessary to use some modulo algorithm.
 - From array[a] to array[b], the number of all the permutation is pow(2, array[b] - array[a] - 1). For these sub-array, the different is all array[b] - array[a]. The sum of these sub-array's different is  pow(2, array[b] - array[a] - 1)*(array[b] - array[a]). So we need to find all sub-arrays, the time complexity is O(n^2);
 
+
 ```c
 #include <iostream> 
 #include <cstdio>
@@ -138,7 +139,9 @@ void main() {
 ```
 
 ## Others' Solution
-- We can precompute all the value of 2^0 to 2^10000, it will be faster. the code as following.
+
+- We can precompute all the value of 2^0 to 2^10000, it will be faster. the code as following.  
+
 ```c++
 #include<cstdio>
 #include<algorithm>
@@ -261,6 +264,7 @@ y will be considered correct if it is within an absolute or relative error of 10
 
 ## My Solution
 - Use Ternary Search
+
 ```c++
 #include <iostream> 
 #include <cstdio>
@@ -435,6 +439,7 @@ int main() {
 }
 ```
 - translate the Chebyshev distance to Manhattan distance, combined with Ternary Search. Very nice solution!
+
 ```c
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
