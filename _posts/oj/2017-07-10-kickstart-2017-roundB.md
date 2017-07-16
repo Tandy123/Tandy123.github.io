@@ -173,7 +173,9 @@ int main(){
 	}
 }
 ```
+
 - Here is a code with time complexity of O(n), we can get how many the number will be added or subtracted by its position in the array.
+
 ```c
 #include <iostream> 
 #include <cstdio>
