@@ -334,11 +334,13 @@ void main() {
 	fclose(stdout);
 }
 ```
+
 ## Others' Solution
 - reference:
 	- [http://www.voidcn.com/blog/niuxiunan/article/p-6603948.html](http://www.voidcn.com/blog/niuxiunan/article/p-6603948.html)
 	- [http://www.voidcn.com/blog/caduca/article/p-2481771.html](http://www.voidcn.com/blog/caduca/article/p-2481771.html)
 - translate the Chebyshev distance to Manhattan distance, combined with prefix sum. The code as following.
+
 ```c++
 #define _CRT_SECURE_NO_WARNINGS
 //#include <bits/stdc++.h>
