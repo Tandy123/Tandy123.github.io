@@ -95,14 +95,14 @@ winged-edge结构如下图所示，每个边存储他的端点，两个邻面和
 
 一个半边可以让我们方便地遍历每个元素（顶点，边，半边，面）的所有环域元素。特别的，给定顶点的一环邻域可以在无区分的情况下枚举遍历。如上图所示，伪代码如下：
 
-	void enumerate \ _one \ _ring ( VertexRef center , Function func )
+	void enumerate_one_ring ( VertexRef center , Function func )
 	{
-		HalfedgeRef h = outgoing \ _halfedge ( center );
+		HalfedgeRef h = outgoing_halfedge ( center );
 		HalfedgeRef hstop = h;
 		do {
 			VertexRef v = vertex (h);
 			func (v); // process vertex v
-			h = next \ _halfedge ( opposite \ _halfedge (h) );
+			h = next_halfedge ( opposite_halfedge (h) );
 		} while (h != hstop );
 	}
 
