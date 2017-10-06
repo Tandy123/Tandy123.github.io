@@ -129,7 +129,7 @@ h的下一条半边的索引可以通过 (h + 1) mod 3 计算得到。剩余的�
 设计数据结构是基于多边形网格的几何处理算法的核心。对于大多数算法我们推荐使用半边数据结构或者有向边数据结构，实现这样的数据结构通常在功能性，存储消耗，和计算效率上很难进行平衡，基于这样的情况，这里推荐使用一些已有的成熟的接口，例如CGAL，OpenMesh和MeshLab。
 
 
-以上内容翻译自《Polygon Mesh Processing》第二章-Mesh Data Structure
+以上内容翻译自《Polygon Mesh Processing》第二章-Mesh Data Structure，如有错误，欢迎指出。
 
 [1]: {{ site.baseurl }}/images/201706/1.png "面集数据结构和索引面集数据结构"
 [2]: {{ site.baseurl }}/images/201706/2.png "存储在基于面的数据结构中的连接信息"
