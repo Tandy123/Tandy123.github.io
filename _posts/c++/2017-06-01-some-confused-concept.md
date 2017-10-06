@@ -123,7 +123,7 @@ void main()
 {
     float a,b,s;
     char op;
-    printf(""please select your operation (input +,-,*or/)\n");
+    printf("please select your operation (input +,-,*or/)\n");
     scanf("%c",&op);
     printf("please input the two operand\n");
     scanf("%f %f",&a,&b);
