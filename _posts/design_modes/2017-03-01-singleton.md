@@ -32,7 +32,7 @@ author: Tandy
 
 ### java版
 
-- 参考《Head First 设计模式》P189
+- 参考《Head First 设计模式》P182
 
 ```java
 public class Singleton{
@@ -41,9 +41,12 @@ public class Singleton{
 	public static Singleton getInstance(){
 		if(uniqueInstance == null){//第一把锁
 			synchronized(Singleton.class){//第二把锁：同步锁
-				uniqueInstance = new Singleton();
+				if(uniqueInstance == null){//第三把锁
+					uniqueInstance = new Singleton();
+				}
 			}
 		}
+		return uniqueInstance;
 	}
 }
 ```
