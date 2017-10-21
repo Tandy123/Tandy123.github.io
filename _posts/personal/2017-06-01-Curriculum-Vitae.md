@@ -25,7 +25,7 @@ author: Tandy
 - 浙江大学计算机系 硕士
 - 技术博客：[https://tangdeyan.me](https://tandy123.github.io/)  
 - Github：[http://github.com/tandy123](http://github.com/tandy123)
-- 期望职位：图形算法工程师 C/C++研发工程师 软件开发工程师
+- 期望职位：图形算法工程师 C/C++研发工程师 软件开发工程师 后台开发
 - 期望城市：北京 上海 广州 深圳 杭州
 
 ---
