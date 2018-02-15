@@ -65,14 +65,14 @@
     }
     ,{
       demo_link: 'https://tandy123.github.io/pointcloud/works/test34.html',
-      img_link: 'http://i1.buimg.com/599048/3f1fe5f905e72e27.png',
+      img_link: '/images/demos/pointcloud_street_line.png',
       title: '简化街景预览',
       core_tech: 'PointsCloud Line Extraction',
       description: '基于WebGL实现简化街道的自动预览',
       more_content: 'https://tandy123.github.io/pointcloud/welcome'
     },{
       demo_link: 'https://tandy123.github.io/webGLExample/index_threejs_render.html',
-      img_link: 'http://i1.buimg.com/599048/da5a8ca65d0f3ab3.gif',
+      img_link: '/images/demos/tooth_render.gif',
       title: '牙齿渲染',
       core_tech: 'Teeth Rendering, Shader, Parameterization',
       description: '基于WebGL实现牙齿渲染效果',
