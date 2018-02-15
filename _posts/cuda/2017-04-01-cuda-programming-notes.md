@@ -136,7 +136,7 @@ int main(void) {
 - 需要注意的地方：在启动线程块数组时，数组每一维的最大数量都不能超过65535。这是一种硬件限制，如果启动的线程块数量超过了这个限制，那么程序将运行失败。
 #### 用CUDA实现基于GPU的[Julia集](http://www.matrix67.com/blog/archives/292)
 - 最终效果  
-![Markdown](http://i4.piimg.com/599048/882c6dde81f3b03d.png)
+![Markdown]({{ site.baseurl }}/images/201704/cuda_julia.png)
 - 效果还是很帅的，下面附上源码
 
 ```c
@@ -227,7 +227,7 @@ google之后，发现了这个问题，在cuComplex(float a, float b) : r(a), i(
 
 #### 在GPU上使用线程实现波纹效果
 - 最终效果  
-![Markdown](http://i4.piimg.com/599048/03fc188d41971931.gif)
+![Markdown]({{ site.baseurl }}/images/201704/cuda_ripple.gif)
 - 下面附上源码  
 
 ```c
@@ -387,7 +387,7 @@ while (i != 0) {
 ```
 
 - 对于某个线程块，线程的数量和cache内存的数量是一样的，同时每个线程对应一个cache的值，可以将cache[]中的两个值加起来，然后把结果保存回cache，覆盖掉索引靠前的那个值，这样不断迭代，最后cache[0]就是当前线程块中的cache求和的结果，规约运算可以用下面这张图直观地表示  
-![Markdown](http://i4.piimg.com/599048/340f05c9239e087c.jpg)
+![Markdown]({{ site.baseurl }}/images/201704/cuda_statute.jpg)
 
 - 最后经过规约，我们得到了和线程块数量一样多的cache[0]，返回这些cache[0]到主机，通过CPU进行求和得到最终的结果，这一步为什么不在GPU上做呢？作者的解释是：事实证明，像GPU这种大规模的并行机器在执行最后的规约步骤时，通常会浪费资源，以为此时的数据集往往非常小。
 
@@ -420,9 +420,9 @@ __syncthreads();
 
 #### 基于共享内存的位图
 - 又是一个有意思的例子，如果没有进行线程同步的话，得到的效果图如下  
-![Markdown](http://i4.piimg.com/599048/e2746d202bc83232.png)
+![Markdown]({{ site.baseurl }}/images/201704/cuda_bit1.png)
 - 进行线程同步以后，得到的效果好多了  
-![Markdown](http://i4.piimg.com/599048/69c05d8df1481cd7.png)
+![Markdown]({{ site.baseurl }}/images/201704/cuda_bit2.png)
 
 - 最后附上代码
 
@@ -496,7 +496,7 @@ if (t > maxz) {
 ```
 
 - 最终实现的效果  
-![Markdown](http://i4.piimg.com/599048/4c8888d3e84f40b2.png)
+![Markdown]({{ site.baseurl }}/images/201704/cuda_raytrace.png)
 
 - 上述算法通过性能测量得到的运行时间是5.6ms
 

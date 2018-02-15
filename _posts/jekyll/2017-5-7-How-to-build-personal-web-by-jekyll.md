@@ -109,7 +109,7 @@ author: Tandy
 
     ruby setup.rb
 
-以后如果要更新的话，可以通过下面的命令行：
+或者直接运行下面的命令行，直接更新到最新的gem：
 
     gem update --system 
 

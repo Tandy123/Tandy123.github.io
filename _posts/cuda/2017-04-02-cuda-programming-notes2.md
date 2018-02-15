@@ -259,7 +259,7 @@ int main(void) {
 	bitmap.anim_and_exit((void(*)(void*, int))anim_gpu, (void(*)(void*))anim_exit);
 }
 ```
-![Markdown](http://i2.kiimg.com/599048/d826c5e332e1a494.gif)
+![Markdown]({{ site.baseurl }}/images/201704/2DTexture.png)
 
 ### 本章小结
 

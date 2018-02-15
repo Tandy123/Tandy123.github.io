@@ -23,25 +23,23 @@ author: Tandy
 	
 	{(x,y,z)\|f(x,y,z)=c},c是常数
 
-![Markdown](http://i1.buimg.com/599048/fe56dbaa307c01b7.jpg)
-
-![Markdown](http://i1.buimg.com/599048/f7ddd3e247eb0aef.jpg)
+![Markdown]({{ site.baseurl }}/images/201703/mc1.png)
 
 #### Marching Cubes
 - 算法的基本思想是逐个处理数据场中的立方体（体素），分离出与等值面相交的立方体，采用插值计算出等值面与立方体边的交点。根据立方体每一顶点与等值面的相对位置，将等值面与立方体边的交点按一定方式连接生成等值面，作为等值面在该立方体内的一个逼近表示。之所以这样，是由于Marching Cubes有个基本假设：沿六面体边的数据场呈连续性变化。也就是讲，如果一条边的两个顶点分别大于或小于等值面的值，则在该条边上有且仅有一点是这条边与等值面的交点。
 - 直观地说，就是用许多小正方体去对空间进行切分，然后用小正方体内部的平面来近似表示当前的等值面。显然，小正方体的数量越多，逼近的效果越好，随之带来的是计算的代价。
 
-![Markdown](http://i1.buimg.com/599048/65585096106aa307.gif)
+![Markdown]({{ site.baseurl }}/images/201703/mc2.jpg)
 
-![Markdown](http://i1.buimg.com/599048/6de0e04a0a1fa3dd.gif)
+![Markdown]({{ site.baseurl }}/images/201703/mc3.jpg)
 
 - 小正方体内部的平面可以小立方体和等值面的相交情况来确定
 
-![Markdown](http://i1.buimg.com/599048/f9348312f31f7c3a.png)
+![Markdown]({{ site.baseurl }}/images/201703/mc5.png)
 
 - 对于每个小正方体来说，每个顶点两种情况（大于或小于）当前等值面的值，8个顶点共256种情况，考虑到旋转对称性，从新分类后可得15种基本模式
 
-![Markdown](http://i1.buimg.com/599048/90127bc18769d1ff.jpg)
+![Markdown]({{ site.baseurl }}/images/201703/mc4.jpg)
 
 ## Marching Cubes编程实现
 
@@ -57,9 +55,9 @@ author: Tandy
 
 - 利用CUDA写了一个简单的Demo，通过调整等值面的阈值，可以得到不同的表面模型。
 
-![Markdown](http://i1.buimg.com/599048/94e313f3b8ff3fde.gif)
+![Markdown]({{ site.baseurl }}/images/201703/mc1.gif)
 
-![Markdown](http://i1.buimg.com/599048/85f2b91bfe33a366.gif)
+![Markdown]({{ site.baseurl }}/images/201703/mc2.gif)
 
 ## 总结
 
@@ -68,11 +66,11 @@ author: Tandy
 	- 缺陷一：拓扑连接二义性，如下图所示
 	- 缺陷二：效率低下，需要借助分层结构和并行计算
 
-![Markdown](http://i1.buimg.com/599048/8f8e2d014d58c73c.png)
+![Markdown]({{ site.baseurl }}/images/201703/mc6.png)
 
 - 该算法的发展：Marching Tetrahedrons
 
-![Markdown](http://i1.buimg.com/599048/e89c355c7c6ba7fd.png)
+![Markdown]({{ site.baseurl }}/images/201703/mc7.png)
 
 ## 参考
 

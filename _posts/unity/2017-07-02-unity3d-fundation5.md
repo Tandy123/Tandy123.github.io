@@ -11,7 +11,7 @@ author: Tandy
 
 这篇博客主要是对这段时间学习coursera上面Unity游戏编程基础的总结
 
-![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1498625091335&di=7ff3f507fe3632acc059239d4fb9a60a&imgtype=0&src=http%3A%2F%2Fwww.qianjunyouxi.com%2Fueditor%2Fphp%2Fupload%2Fimage%2F20151008%2F1444309444853389.jpg)
+![]({{ site.baseurl }}/images/unity/unity-logo.jpg)
 
 
 
@@ -41,7 +41,7 @@ author: Tandy
 
 - 项目演示
 
-![Markdown](http://i4.piimg.com/599048/b593f1106137dbc9.gif)
+![Markdown](https://note.youdao.com/yws/public/resource/f1dee2fd726a207c1fb7f73ada888c79/xmlnote/E0F114EFFA4B477694469DD621C93A0B/33279)
 
 - 完整视频演示
 
@@ -75,7 +75,7 @@ height:0;">
 
 - 项目演示
 
-![Markdown](http://i2.kiimg.com/599048/a920d6a26174c79a.gif)
+![Markdown](https://note.youdao.com/yws/public/resource/f1dee2fd726a207c1fb7f73ada888c79/xmlnote/81939D000663406EA6EC7353635EBEF9/33277)
 
 - 完整版游戏下载连接 [http://pan.baidu.com/s/1nvuRWLj](http://pan.baidu.com/s/1nvuRWLj)
 
@@ -102,7 +102,7 @@ height:0;">
 
 - 项目演示
 
-![Markdown](http://i2.kiimg.com/599048/ba68da3465e3d5cb.gif)
+![Markdown](https://note.youdao.com/yws/public/resource/f1dee2fd726a207c1fb7f73ada888c79/xmlnote/F4BD734656EF48DDB1C77D4A9F4CF51E/33280)
 
 - 完整版游戏下载连接 [http://pan.baidu.com/s/1jIMde2E](http://pan.baidu.com/s/1jIMde2E)
 

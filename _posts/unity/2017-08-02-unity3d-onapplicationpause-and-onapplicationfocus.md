@@ -11,7 +11,7 @@ author: Tandy
 
 这篇博客主要讲解Unity中和强制暂停有关的两个函数OnApplicationPause与OnApplicationFocus
 
-![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1498625091335&di=7ff3f507fe3632acc059239d4fb9a60a&imgtype=0&src=http%3A%2F%2Fwww.qianjunyouxi.com%2Fueditor%2Fphp%2Fupload%2Fimage%2F20151008%2F1444309444853389.jpg)
+![]({{ site.baseurl }}/images/unity/unity-logo.jpg)
 
 
 
@@ -79,7 +79,7 @@ author: Tandy
 
 - 看了这些有个大概的了解，不过最给力的还是unity的官方文档，下面是原文，看标注的那句话就够了：
 
-![Markdown](http://i1.ciimg.com/599048/5ac2b435c2bc2342.png)
+![]({{ site.baseurl }}/images/unity/OnApplicationFocus.png)
 
 - 最后，直接把wwise里重写的OnApplicationFocus函数注释掉，不知道有没有更好的解决办法，欢迎交流
 

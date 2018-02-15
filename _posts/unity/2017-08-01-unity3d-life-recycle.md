@@ -11,7 +11,7 @@ author: Tandy
 
 这篇博客主要总结一下Unity脚本的生命周期
 
-![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1498625091335&di=7ff3f507fe3632acc059239d4fb9a60a&imgtype=0&src=http%3A%2F%2Fwww.qianjunyouxi.com%2Fueditor%2Fphp%2Fupload%2Fimage%2F20151008%2F1444309444853389.jpg)
+![]({{ site.baseurl }}/images/unity/unity-logo.jpg)
 
 
 
