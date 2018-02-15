@@ -80,7 +80,7 @@
     }
     ,{
       demo_link: '/2017/07/02/unity3d-fundation5/#多米诺骨牌',
-      img_link: 'http://i2.kiimg.com/599048/c6f13bfee1b2ab23.png',
+      img_link: 'https://note.youdao.com/yws/public/resource/f1dee2fd726a207c1fb7f73ada888c79/xmlnote/E0F114EFFA4B477694469DD621C93A0B/33279',
       title: 'Unity多米诺骨牌',
       core_tech: 'Unity3D',
       description: '基于Unity3D实现的多米诺骨牌Demo',
@@ -88,7 +88,7 @@
     }
     ,{
       demo_link: '/2017/07/02/unity3d-fundation5/#慕课英雄第三人称简易版',
-      img_link: 'http://i2.kiimg.com/599048/ac6f09cd9b70bf6e.png',
+      img_link: '/images/demos/hero_TPS.png',
       title: '第三人称射击游戏',
       core_tech: 'Unity3D',
       description: '基于Unity3D实现的第三人称射击游戏',
@@ -96,7 +96,7 @@
     }
     ,{
       demo_link: '/2017/07/02/unity3d-fundation5/#慕课英雄第一人称完整版',
-      img_link: 'http://i2.kiimg.com/599048/ba68da3465e3d5cb.gif',
+      img_link: '/images/demos/hero_FPS.png',
       title: '第一人称射击游戏',
       core_tech: 'Unity3D',
       description: '基于Unity3D实现的第一人称射击游戏',
@@ -104,7 +104,7 @@
     }
     ,{
       demo_link: '/2017/03/02/Marching-Cubes/',
-      img_link: 'http://i1.buimg.com/599048/94e313f3b8ff3fde.gif',
+      img_link: '/images/demos/mc1.gif',
       title: 'Marching Cubes等值面提取算法',
       core_tech: 'Marching Cubes',
       description: '基于CUDA实现的Marching Cubes等值面提取算法Demo',
