@@ -50,7 +50,7 @@
       more_content: '/2017/06/01/error-map/'
     },{
       demo_link: 'https://tandy123.github.io/pointcloud/works/test3.html',
-      img_link: 'http://i4.piimg.com/599048/36dc99eed90a1a85.gif',
+      img_link: '/images/demos/pointcloud_street_lights.gif',
       title: '点云物体展示',
       core_tech: 'Point Cloud',
       description: '基于WebGL实现简单点云展示功能',
