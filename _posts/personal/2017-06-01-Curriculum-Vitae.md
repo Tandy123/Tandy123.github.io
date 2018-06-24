@@ -11,12 +11,6 @@ author: Tandy
 
 
 
-
-# 联系方式
-
-- 手机：15306693253
-- Email：deyantang@gmail.com
-
 ---
 
 # 个人信息
