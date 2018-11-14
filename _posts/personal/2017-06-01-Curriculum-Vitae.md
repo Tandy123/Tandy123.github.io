@@ -15,7 +15,6 @@ author: Tandy
 
 # 个人信息
 
-- 汤德衍 男 1992 
 - 浙江大学计算机系 硕士
 - 技术博客：[https://tangdeyan.me](https://tandy123.github.io/)  
 - Github：[http://github.com/tandy123](http://github.com/tandy123)
